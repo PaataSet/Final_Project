@@ -20,3 +20,151 @@ img {
 h1 {
   font-family: "Muli";
 }
+
+body {
+  border: solid black 1px;
+
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: antiquewhite;
+}
+
+.section1 {
+  background-color: aquamarine;
+  border: solid black 1px;
+  max-width: 1920px;
+  width: 100%;
+  /* height: 960px; */
+  position: relative;
+}
+
+.slide-container {
+  display: flex;
+}
+
+/* .first-div {
+  max-width: 1920px; 
+  max-width: 1920px;
+  width: 100%;
+  padding: 48px 52px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+} */
+
+.Roca-div {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.Roca {
+  font-size: 40px;
+  font-family: poppins;
+  font-weight: 1000;
+}
+
+.Roca > span {
+  color: blue;
+  font-size: 33px;
+}
+
+.Resume {
+  font-family: montserrat;
+  color: #b3b3b3;
+}
+
+.About-me-div {
+  /* width: 100%; */
+  /* padding: 0 120px; */
+  position: absolute;
+  top: 0;
+  right: 100px;
+}
+
+.About-me-01 {
+  font-size: 153.3px;
+  font-family: poppins;
+  font-weight: 1000;
+  color: #1c1c1c;
+}
+
+.About-me {
+  width: 227px;
+  font-size: 43.17px;
+  font-family: poppins;
+  font-weight: 1000;
+  color: #373737;
+  position: absolute;
+  top: 40%;
+}
+
+.second-div {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  position: absolute;
+  right: 400px;
+  bottom: 300px;
+}
+
+.second-div-1 {
+  font-family: Glacial Indifference;
+  font-size: 50px;
+}
+
+.second-div-2 {
+  font-family: Glacial Indifference;
+  font-weight: bold;
+  font-size: 71px;
+}
+
+.second-div-3 {
+  font-family: Glacial Indifference;
+
+  font-size: 23px;
+}
+
+.second-div-4 {
+  padding-top: 80px;
+  display: flex;
+  gap: 10px;
+}
+
+.soc-media-logos {
+  max-width: 30px;
+  width: 100%;
+}
+
+.sat-clients {
+  position: absolute;
+  bottom: 43px;
+  right: 184px;
+  font-family: montserrat;
+  font-weight: bold;
+  font-size: 24px;
+}
+.div-text > span {
+  color: #e93656;
+}
+
+.div-line {
+  width: 340px;
+  height: 6px;
+  background-color: #e93656;
+  margin-top: 20px;
+}
+
+.slide-photos {
+}
+
+.slide {
+  width: 100%;
+  max-width: 0;
+}
+
+.active {
+  max-width: 100%;
+  width: 1920px;
+}
