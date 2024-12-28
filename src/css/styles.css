@@ -17,10 +17,6 @@ img {
   max-width: 100%;
 }
 
-h1 {
-  font-family: "Muli";
-}
-
 body {
   border: solid black 1px;
 
@@ -167,4 +163,164 @@ body {
 .active {
   max-width: 100%;
   width: 1920px;
+  height: 960px;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 220, 220);
+  border: solid black 1px;
+  max-width: 1920px;
+  width: 100%;
+  height: 703px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 334px;
+}
+
+.my-name {
+  font-family: Glacial Indifference;
+  font-weight: bold;
+  font-size: 40px;
+  color: #222222;
+  text-align: right;
+}
+
+.my-profession {
+  font-family: Muli;
+  /* font-weight: bold; */
+  font-size: 14px;
+  color: #daae19;
+  text-align: right;
+  margin: 6px 0 32px 0;
+}
+
+.my-text {
+  font-family: Muli;
+  /* font-weight: bold; */
+  font-size: 15px;
+  color: #555555;
+  text-align: right;
+}
+
+.Hire-Me {
+  font-family: Glacial Indifference;
+  font-weight: bold;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+  width: 152px;
+  height: 50px;
+  background-color: #e93656;
+  margin-top: 60px;
+}
+
+.my-photo > img {
+  max-width: 430px;
+  width: 100%;
+  margin: 0 60px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  width: 302px;
+  gap: 38px;
+}
+
+.line-100 {
+  width: 300px;
+  height: 9px;
+  background-color: #f0f0f0;
+}
+.line-0 {
+  width: 0%;
+  height: 9px;
+  background-color: #e93656;
+}
+
+.line-80 {
+  width: 80%;
+  height: 9px;
+  background-color: #e93656;
+
+  transition: 2s;
+  transition-delay: 2s;
+}
+
+.line-65 {
+  width: 65%;
+  height: 9px;
+  background-color: #e93656;
+}
+
+.line-50 {
+  width: 50%;
+  height: 9px;
+  background-color: #e93656;
+}
+
+.line-30 {
+  width: 30%;
+  height: 9px;
+  background-color: #e93656;
+}
+
+.icons > img {
+  margin-top: 78px;
+  max-width: 50px;
+}
+
+.icons > img:hover {
+  background-color: #15263e;
+  transition: 0.5s;
+}
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+  width: 100%;
+  height: 210px;
+  background-color: #131a36;
+  gap: 50px;
+}
+
+.section3 > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.section3 > div > img {
+  border: #ffffff 2px;
+  border-radius: 45px;
+  border-style: dashed;
+}
+
+.section3 > div > img:hover {
+  background-color: #e93656;
+}
+
+.contact-text > h1 {
+  color: #ffffff;
+  width: 170px;
+  font-family: Glacial Indifference;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.contact-text > p {
+  font-family: "Muli";
+  font-size: 14px;
+  color: #ffffff;
+  width: 170px;
 }

@@ -30,3 +30,13 @@ const slideFn = () => {
 };
 
 slideFn();
+
+// პროცენტების სლაიდერი
+
+let indicator = document.querySelector(".line-0");
+
+window.onscroll = function () {
+  indicator.classList.add("line-80");
+};
+
+// end
