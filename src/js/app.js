@@ -33,10 +33,16 @@ slideFn();
 
 // პროცენტების სლაიდერი
 
-let indicator = document.querySelector(".line-0");
+let indicator1 = document.querySelector(".line1-0");
+let indicator2 = document.querySelector(".line2-0");
+let indicator3 = document.querySelector(".line3-0");
+let indicator4 = document.querySelector(".line4-0");
 
 window.onscroll = function () {
-  indicator.classList.add("line-80");
+  indicator1.classList.add("line-80");
+  indicator2.classList.add("line-65");
+  indicator3.classList.add("line-50");
+  indicator4.classList.add("line-30");
 };
 
 // end

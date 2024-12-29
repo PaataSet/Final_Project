@@ -239,7 +239,7 @@ body {
   height: 9px;
   background-color: #f0f0f0;
 }
-.line-0 {
+.line1-0 .line2-0 .line3-0 .line4-0 {
   width: 0%;
   height: 9px;
   background-color: #e93656;
@@ -249,7 +249,6 @@ body {
   width: 80%;
   height: 9px;
   background-color: #e93656;
-
   transition: 2s;
   transition-delay: 2s;
 }
@@ -258,18 +257,24 @@ body {
   width: 65%;
   height: 9px;
   background-color: #e93656;
+  transition: 2s;
+  transition-delay: 2s;
 }
 
 .line-50 {
   width: 50%;
   height: 9px;
   background-color: #e93656;
+  transition: 2s;
+  transition-delay: 2s;
 }
 
 .line-30 {
   width: 30%;
   height: 9px;
   background-color: #e93656;
+  transition: 2s;
+  transition-delay: 2s;
 }
 
 .icons > img {
@@ -323,4 +328,40 @@ body {
   font-size: 14px;
   color: #ffffff;
   width: 170px;
+}
+
+.section4 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 1100px;
+  background-color: #fafafa;
+}
+
+.section4 > div {
+  border: red solid 1px;
+  background-color: #fafafa;
+  align-items: center;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 10px;
+}
+
+.card {
+  border: black solid 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8e8e8;
+  width: 285px;
+  height: 360px;
+}
+
+.card > h1 {
+  font-family: Glacial Indifference;
+  font-weight: 500;
+  font-size: 22px;
+  color: #222222;
 }
