@@ -614,3 +614,26 @@ body {
   width: 827px;
   background: #e1e0dc 0% 0% no-repeat padding-box;
 }
+
+.section8 {
+  border: solid black 1px;
+  background-color: rgb(255, 189, 189);
+  width: 1920px;
+  height: 530px;
+}
+
+.clients {
+  border: solid black 1px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 5px;
+  margin: 80px;
+}
+
+.client {
+  width: 230px;
+  height: 190px;
+  border: solid black 1px;
+  background: #15263e 0% 0% no-repeat padding-box;
+}
