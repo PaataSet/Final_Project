@@ -330,43 +330,53 @@
       <h1>CONTACT US</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
       <form action="#">
-        <div>
-          <label for="Name">Your Name*</label>
-          <input type="text" id="Name" required placeholder="Your Name*" />
+        <div class="item-1">
+          <!-- <label for="Name">Your Name*</label> -->
+          <input
+            type="text"
+            id="Name"
+            required
+            placeholder="Your Name*"
+            class="contact-field"
+          />
         </div>
-        <div>
-          <label for="email">Email Address*</label>
+        <div class="item-2">
+          <!-- <label for="email">Email Address*</label> -->
           <input
             type="email"
             id="email"
             name="email"
             required
             placeholder="Email Address*"
+            class="contact-field"
           />
         </div>
-        <div>
-          <label for="website">Your Website*</label>
+        <div class="item-3">
+          <!-- <label for="website">Your Website*</label> -->
           <input
             type="website"
             id="website"
             name="website"
             required
             placeholder="Your Website*"
+            class="contact-field"
           />
         </div>
-        <div>
-          <label for="message">Message*</label>
+        <div class="item-4">
+          <!-- <label for="message">Message*</label> -->
           <textarea
+            type="message"
+            id="message"
             name="message"
             required
-            placeholder="Your Name*"
-            id="message"
+            placeholder="Message*"
             cols="20"
             rows="10"
+            class="contact-field-4"
           >
           </textarea>
         </div>
-        <div class="PS-button">
+        <div class="item-5">
           <button type="submit">SEND MESSAGE</button>
         </div>
       </form>
