@@ -9,6 +9,29 @@
   </head>
   <body>
     <section class="section1">
+      <div class="slide-container">
+        <div class="slide">
+          <img
+            class="slide-photos"
+            src="src/images/photo-1.jpg"
+            alt="photo-1"
+          />
+        </div>
+        <div class="slide">
+          <img
+            class="slide-photos"
+            src="src/images/photo-2.jpg"
+            alt="photo-2"
+          />
+        </div>
+        <div class="slide">
+          <img
+            class="slide-photos"
+            src="src/images/photo-3.jpg"
+            alt="photo-3"
+          />
+        </div>
+      </div>
       <!-- <div class="first-div"> -->
       <div class="Roca-div">
         <div class="Roca">Roca<span>.</span></div>
@@ -58,30 +81,6 @@
       <div class="sat-clients">
         <div class="div-text"><span>100%</span> Satisfied Clients</div>
         <div class="div-line"></div>
-      </div>
-
-      <div class="slide-container">
-        <div class="slide">
-          <img
-            class="slide-photos"
-            src="src/images/photo-1.jpg"
-            alt="photo-1"
-          />
-        </div>
-        <div class="slide">
-          <img
-            class="slide-photos"
-            src="src/images/photo-2.jpg"
-            alt="photo-2"
-          />
-        </div>
-        <div class="slide">
-          <img
-            class="slide-photos"
-            src="src/images/photo-3.jpg"
-            alt="photo-3"
-          />
-        </div>
       </div>
     </section>
     <section class="section2">
@@ -186,39 +185,76 @@
     </section>
     <section class="section5">
       <div>
-        <p class="sec5-paragraph">
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-          officia deserunt mollit anim id est dolor sit amet, consectetur
-          adipisicing elit sed do eiusmod tempor incididunt ut labore..
-        </p>
-      </div>
-      <div class="round-slides">
-        <img
-          src="src/images/round-slide-1.jpg"
-          alt="round-slide-1"
-          class="rs-1 rs-active"
-        />
-        <img
-          src="src/images/round-slide-2.jpg"
-          alt="round-slide-2"
-          class="rs-1"
-        />
-        <img
-          src="src/images/round-slide-3.jpg"
-          alt="round-slide-3"
-          class="rs-1"
-        />
-      </div>
-      <div class="paragraphs">
-        <p class="paragraph1">“</p>
-        <p class="paragraph2">Graphic Designer</p>
-        <p class="paragraph3">Mau Thomas</p>
+        <div class="rs-slide fade">
+          <p class="sec5-paragraph">
+            111 Excepteur sint occaecat cupidatat non proident, sunt in culpa
+            qui officia deserunt mollit anim id est dolor sit amet, consectetur
+            adipisicing elit sed do eiusmod tempor incididunt ut labore..
+          </p>
+          <div class="round-slide">
+            <img
+              src="src/images/round-slide-1.jpg"
+              alt="round-slide-1"
+              class="rs-1"
+            />
+          </div>
+          <div class="paragraphs">
+            <p class="paragraph1">“</p>
+            <p class="paragraph2">Graphic Designer</p>
+            <p class="paragraph3">Mau Thomas</p>
+          </div>
+        </div>
+        <div class="rs-slide fade">
+          <p class="sec5-paragraph">
+            222 Excepteur sint occaecat cupidatat non proident, sunt in culpa
+            qui officia deserunt mollit anim id est dolor sit amet, consectetur
+            adipisicing elit sed do eiusmod tempor incididunt ut labore..
+          </p>
+          <div class="round-slide">
+            <img
+              src="src/images/round-slide-2.jpg"
+              alt="round-slide-2"
+              class="rs-1"
+            />
+          </div>
+          <div class="paragraphs">
+            <p class="paragraph1">“</p>
+            <p class="paragraph2">Graphic Designer</p>
+            <p class="paragraph3">Mau Thomas</p>
+          </div>
+        </div>
+        <div class="rs-slide fade">
+          <p class="sec5-paragraph">
+            333 Excepteur sint occaecat cupidatat non proident, sunt in culpa
+            qui officia deserunt mollit anim id est dolor sit amet, consectetur
+            adipisicing elit sed do eiusmod tempor incididunt ut labore..
+          </p>
+          <div class="round-slide">
+            <img
+              src="src/images/round-slide-3.jpg"
+              alt="round-slide-3"
+              class="rs-1"
+            />
+          </div>
+          <div class="paragraphs">
+            <p class="paragraph1">“</p>
+            <p class="paragraph2">Graphic Designer</p>
+            <p class="paragraph3">Mau Thomas</p>
+          </div>
+        </div>
       </div>
       <div class="rs-buttons">
-        <button class="rs-button1"></button>
-        <button class="rs-button2"></button>
-        <button class="rs-button3"></button>
+        <button class="rs-button" onclick="currentSlide(1)"></button>
+        <button class="rs-button" onclick="currentSlide(2)"></button>
+        <button class="rs-button" onclick="currentSlide(3)"></button>
       </div>
+      <div style="text-align: center">
+        <!-- <span class="dot" onclick="currentSlide(1)"></span> -->
+        <!-- <span class="dot" onclick="currentSlide(2)"></span> -->
+        <!-- <span class="dot" onclick="currentSlide(3)"></span> -->
+      </div>
+
+      <!-- <div class="round-slides"></div> -->
     </section>
     <section class="section6">
       <h1>Latest Projects</h1>
@@ -227,23 +263,77 @@
         <div class="nav-div">
           <nav>
             <ul>
-              <li>All</li>
-              <li>Work ideas</li>
-              <li>Mockup</li>
-              <li>PSD Design</li>
-              <li>Logo</li>
-              <li>Presentation</li>
-              <li>Icons</li>
+              <a href="#"><li>All</li></a>
+              <a href="#"><li>Work ideas</li></a>
+              <a href="#"><li>Mockup</li></a>
+              <a href="#"><li>PSD Design</li></a>
+              <a href="#"><li>Logo</li></a>
+              <a href="#"><li>Presentation</li></a>
+              <a href="#"><li>Icons</li></a>
             </ul>
           </nav>
         </div>
         <div class="lp-cards">
-          <div class="lp-card"></div>
-          <div class="lp-card"></div>
-          <div class="lp-card"></div>
-          <div class="lp-card"></div>
-          <div class="lp-card"></div>
-          <div class="lp-card"></div>
+          <div class="lp-card">
+            <img src="src/images/LP-card-1.png" alt="LP-card-1" />
+            <div class="ip-card-info">
+              <div class="heart-div">
+                <img src="src/images/heart.svg" alt="heart.svg" />
+              </div>
+              <h5>8 MONTS AGO</h5>
+              <h1>Work ideas</h1>
+            </div>
+          </div>
+          <div class="lp-card">
+            <img src="src/images/LP-card-2.png" alt="LP-card-2" />
+            <div class="ip-card-info">
+              <div class="heart-div">
+                <img src="src/images/heart.svg" alt="heart.svg" />
+              </div>
+              <h5>9 MONTS AGO</h5>
+              <h1>3D Mockup Design</h1>
+            </div>
+          </div>
+          <div class="lp-card">
+            <img src="src/images/LP-card-3.png" alt="LP-card-3" />
+            <div class="ip-card-info">
+              <div class="heart-div">
+                <img src="src/images/heart.svg" alt="heart.svg" />
+              </div>
+              <h5>8 MONTS AGO</h5>
+              <h1>PSD Design</h1>
+            </div>
+          </div>
+          <div class="lp-card">
+            <img src="src/images/LP-card-4.png" alt="LP-card-4" />
+            <div class="ip-card-info">
+              <div class="heart-div">
+                <img src="src/images/heart.svg" alt="heart.svg" />
+              </div>
+              <h5>7 MONTS AGO</h5>
+              <h1>Logo</h1>
+            </div>
+          </div>
+          <div class="lp-card">
+            <img src="src/images/LP-card-5.png" alt="LP-card-5" />
+            <div class="ip-card-info">
+              <div class="heart-div">
+                <img src="src/images/heart.svg" alt="heart.svg" />
+              </div>
+              <h5>6 MONTS AGO</h5>
+              <h1>Presentation</h1>
+            </div>
+          </div>
+          <div class="lp-card">
+            <img src="src/images/LP-card-6.png" alt="LP-card-6" />
+            <div class="ip-card-info">
+              <div class="heart-div">
+                <img src="src/images/heart.svg" alt="heart.svg" />
+              </div>
+              <h5>5 MONTS AGO</h5>
+              <h1>Icons</h1>
+            </div>
+          </div>
         </div>
       </div>
     </section>

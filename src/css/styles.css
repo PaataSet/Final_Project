@@ -161,9 +161,20 @@ body {
 }
 
 .active {
+  animation-name: active;
+  animation-duration: 0.5s;
   max-width: 100%;
   width: 1920px;
   height: 960px;
+}
+
+@keyframes active {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .section2 {
@@ -382,6 +393,56 @@ body {
   gap: 50px;
 }
 
+/* დასაწყისი  */
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* დასასრული */
+
+.rs-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+/* .rs-slide-active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+} */
+
 .sec5-paragraph {
   border: solid black 1px;
   width: 497px;
@@ -393,7 +454,7 @@ body {
   line-height: 1.6;
 }
 
-.round-slides {
+.round-slide {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -404,16 +465,17 @@ body {
 }
 
 .rs-1 {
-  display: none;
-  width: 140px;
-  border-radius: 70px;
-}
-
-.rs-active {
   display: flex;
   width: 140px;
   border-radius: 70px;
 }
+
+/* .rs-active {
+  display: flex;
+  width: 140px;
+  border-radius: 70px;
+} */
+
 .paragraphs {
   display: flex;
   flex-direction: column;
@@ -443,7 +505,7 @@ body {
   gap: 12px;
 }
 
-.rs-button1 {
+.rs-button {
   width: 13px;
   height: 13px;
   border: 2px solid #ffffff;
@@ -457,12 +519,12 @@ body {
   background: #ffffff00 0% 0% no-repeat padding-box;
 }
 
-.rs-button3 {
+/* .rs-button3 {
   width: 13px;
   height: 13px;
   border: 2px solid #ffffff;
   background: #ffffff00 0% 0% no-repeat padding-box;
-}
+} */
 
 .section6 {
   display: flex;
@@ -496,7 +558,8 @@ body {
   padding: 50px;
 }
 
-.nav-div ul {
+.nav-div ul,
+.nav-div li {
   color: white;
   font-family: Glacial Indifference;
   font-weight: bold;
@@ -516,6 +579,59 @@ body {
   border: solid black 1px;
   width: 300px;
   height: 350px;
+  position: relative;
+}
+
+.lp-card:hover > img {
+  opacity: 0.5;
+  filter: blur(5px);
+  transition: 0.5s;
+  /* transition-delay: 0.5s; */
+}
+
+.lp-card:hover .ip-card-info {
+  display: flex;
+  transition-duration: 0.5s;
+}
+
+.ip-card-info {
+  border: solid red 1px;
+  background-color: #000000;
+  opacity: 0.7;
+  width: 300px;
+  height: 350px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+}
+
+.heart-div {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: 2px solid #e93656;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ip-card-info h5 {
+  margin: 17px 0 7px 0;
+  font-family: muli;
+  font-size: 11px;
+  color: #dddddd;
+  letter-spacing: 0.33px;
+}
+
+.ip-card-info h1 {
+  margin: 17px 0 7px 0;
+  font-family: Glacial Indifference;
+  font-weight: bold;
+  font-size: 23px;
+  color: #ffffff;
 }
 
 .section7 {
