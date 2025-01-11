@@ -4,6 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Final Project</title>
+
+    <meta name="author" content="Paata Seturidze" />
+    <meta
+      name="description"
+      content="Final Project for Front-End Development & SEO"
+    />
+    <meta name="keywords" content="HTML, CSS and JavaSript" />
+
+    <!-- facebook -->
+    <meta
+      property="og:url"
+      content="https://github.com/PaataSet/Final_Project"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Final_Project" />
+    <meta property="og:description" content="Page About Me" />
+    <!-- END -->
+
+    <!-- GOOGLE -->
+    <meta name="robots" content="max-image-preview:standard" />
+    <meta name="googlebot" content="notranslate" />
+    <meta name="google" content="nopagereadaloud" />
+    <!-- END -->
+
     <link rel="stylesheet" type="text/css" href="src/css/styles.css" />
     <link rel="stylesheet" type="text/css" href="src/fonts/stylesheet.css" />
   </head>
@@ -116,16 +140,69 @@
           <div class="line-100"><div class="line4-0"></div></div>
         </div>
         <div class="icons">
-          <img src="src/images/facebook-icon.png" alt="facebook-icon" />
-          <img src="src/images/twitter-icon.png" alt="twitter-icon" />
-          <img src="src/images/google-icon.png" alt="google-icon" />
-          <img src="src/images/pinterest-icon.png" alt="pinterest-icon" />
+          <a href="https://www.facebook.com/" target="_blank">
+            <div>
+              <img
+                src="src/images/facebook-icon.png"
+                alt="facebook-icon"
+                class="icon-dark"
+              />
+              <img
+                src="src/images/facebook-icon-tr.png"
+                alt="facebook-icon-tr"
+                class="icon-white"
+              />
+            </div>
+          </a>
+          <a href="https://x.com/?lang=en" target="_blank">
+            <div>
+              <img
+                src="src/images/twitter-icon.png"
+                alt="twitter-icon"
+                class="icon-dark"
+              />
+              <img
+                src="src/images/twitter-icon-tr.png"
+                alt="twitter-icon-tr"
+                class="icon-white"
+              />
+            </div>
+          </a>
+          <a href="https://www.google.com/" target="_blank">
+            <div>
+              <img
+                src="src/images/google-icon.png"
+                alt="google-icon"
+                class="icon-dark"
+              />
+              <img
+                src="src/images/google-icon-tr.png"
+                alt="google-icon-tr"
+                class="icon-white"
+              /></div
+          ></a>
+          <a href="https://www.pinterest.com/" target="_blank">
+            <div>
+              <img
+                src="src/images/pinterest-icon.png"
+                alt="pinterest-icon"
+                class="icon-dark"
+              />
+              <img
+                src="src/images/pinterest-icon-tr.png"
+                alt="pinterest-icon-tr"
+                class="icon-white"
+              />
+            </div>
+          </a>
         </div>
       </div>
     </section>
     <section class="section3">
       <div>
-        <img src="src/images/phone.png" alt="phone" />
+        <a href="tel:+1 256 254 84 56">
+          <img src="src/images/phone.png" alt="phone" />
+        </a>
         <div class="contact-text">
           <h1>Phone Number</h1>
           <p>+1 256 254 84 56</p>
@@ -133,14 +210,19 @@
         </div>
       </div>
       <div>
-        <img src="src/images/location.png" alt="location" />
+        <a href="https://www.google.com/maps/" target="_blank">
+          <img src="src/images/location.png" alt="location" />
+        </a>
         <div class="contact-text">
           <h1>user Address</h1>
           <p>24058, Belgium, Brussels, Liutte 27 United State</p>
         </div>
       </div>
       <div>
-        <img src="src/images/mail.png" alt="mail" />
+        <a href="mailto:johnsmith@company.com">
+          <img src="src/images/mail.png" alt="mail" />
+        </a>
+
         <div class="contact-text">
           <h1>Email Address</h1>
           <p>johnsmith@company.com youoffice@company.com</p>
@@ -150,36 +232,108 @@
     <section class="section4">
       <div>
         <div class="card">
-          <img src="src/images/card-1.svg" alt="card-1" />
-          <h1>Graphichs Design</h1>
+          <div class="card-head">
+            <img src="src/images/card-1.svg" alt="card-1" />
+            <h1>Graphichs Design</h1>
+          </div>
+          <div class="card-info">
+            <h1>Graphichs Design</h1>
+            <p>
+              Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores.Ipsa dolor
+            </p>
+          </div>
         </div>
         <div class="card">
-          <img src="src/images/card-2.svg" alt="card-2" />
-          <h1>Best Service</h1>
+          <div class="card-head">
+            <img src="src/images/card-2.svg" alt="card-2" />
+            <h1>Best Service</h1>
+          </div>
+          <div class="card-info">
+            <h1>Best Service</h1>
+            <p>
+              Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores.Ipsa dolor
+            </p>
+          </div>
         </div>
         <div class="card">
-          <img src="src/images/card-3.svg" alt="card-3" />
-          <h1>Best Service</h1>
+          <div class="card-head">
+            <img src="src/images/card-3.svg" alt="card-3" />
+            <h1>Best Service</h1>
+          </div>
+          <div class="card-info">
+            <h1>Best Service</h1>
+            <p>
+              Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores.Ipsa dolor
+            </p>
+          </div>
         </div>
         <div class="card">
-          <img src="src/images/card-4.svg" alt="card-4" />
-          <h1>Pixel Perfect</h1>
+          <div class="card-head">
+            <img src="src/images/card-4.svg" alt="card-4" />
+            <h1>Pixel Perfect</h1>
+          </div>
+          <div class="card-info">
+            <h1>Pixel Perfect</h1>
+            <p>
+              Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores.Ipsa dolor
+            </p>
+          </div>
         </div>
         <div class="card">
-          <img src="src/images/card-5.svg" alt="card-5" />
-          <h1>Unique Ideas</h1>
+          <div class="card-head">
+            <img src="src/images/card-5.svg" alt="card-5" />
+            <h1>Unique Ideas</h1>
+          </div>
+          <div class="card-info">
+            <h1>Unique Ideas</h1>
+            <p>
+              Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores.Ipsa dolor
+            </p>
+          </div>
         </div>
         <div class="card">
-          <img src="src/images/card-6.svg" alt="card-6" />
-          <h1>Design Analysis</h1>
+          <div class="card-head">
+            <img src="src/images/card-6.svg" alt="card-6" />
+            <h1>Design Analysis</h1>
+          </div>
+          <div class="card-info">
+            <h1>Design Analysis</h1>
+            <p>
+              Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores.Ipsa dolor
+            </p>
+          </div>
         </div>
         <div class="card">
-          <img src="src/images/card-7.svg" alt="card-7" />
-          <h1>Fully Managed</h1>
+          <div class="card-head">
+            <img src="src/images/card-7.svg" alt="card-7" />
+            <h1>Fully Managed</h1>
+          </div>
+          <div class="card-info">
+            <h1>Fully Managed</h1>
+            <p>
+              Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores.Ipsa dolor
+            </p>
+          </div>
         </div>
         <div class="card">
-          <img src="src/images/card-8.svg" alt="card-8" />
-          <h1>Helpful Support</h1>
+          <div class="card-head">
+            <img src="src/images/card-8.svg" alt="card-8" />
+            <h1>Helpful Support</h1>
+          </div>
+          <div class="card-info">
+            <h1>Helpful Support</h1>
+            <p>
+              Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus
+              magm maiores.Ipsa dolor
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -276,7 +430,7 @@
         <div class="lp-cards">
           <div class="lp-card">
             <img src="src/images/LP-card-1.png" alt="LP-card-1" />
-            <div class="ip-card-info">
+            <div class="lp-card-info">
               <div class="heart-div">
                 <img src="src/images/heart.svg" alt="heart.svg" />
               </div>
@@ -286,7 +440,7 @@
           </div>
           <div class="lp-card">
             <img src="src/images/LP-card-2.png" alt="LP-card-2" />
-            <div class="ip-card-info">
+            <div class="lp-card-info">
               <div class="heart-div">
                 <img src="src/images/heart.svg" alt="heart.svg" />
               </div>
@@ -296,7 +450,7 @@
           </div>
           <div class="lp-card">
             <img src="src/images/LP-card-3.png" alt="LP-card-3" />
-            <div class="ip-card-info">
+            <div class="lp-card-info">
               <div class="heart-div">
                 <img src="src/images/heart.svg" alt="heart.svg" />
               </div>
@@ -306,7 +460,7 @@
           </div>
           <div class="lp-card">
             <img src="src/images/LP-card-4.png" alt="LP-card-4" />
-            <div class="ip-card-info">
+            <div class="lp-card-info">
               <div class="heart-div">
                 <img src="src/images/heart.svg" alt="heart.svg" />
               </div>
@@ -316,7 +470,7 @@
           </div>
           <div class="lp-card">
             <img src="src/images/LP-card-5.png" alt="LP-card-5" />
-            <div class="ip-card-info">
+            <div class="lp-card-info">
               <div class="heart-div">
                 <img src="src/images/heart.svg" alt="heart.svg" />
               </div>
@@ -326,7 +480,7 @@
           </div>
           <div class="lp-card">
             <img src="src/images/LP-card-6.png" alt="LP-card-6" />
-            <div class="ip-card-info">
+            <div class="lp-card-info">
               <div class="heart-div">
                 <img src="src/images/heart.svg" alt="heart.svg" />
               </div>
@@ -401,18 +555,53 @@
       <div class="clients">
         <div class="client">
           <img src="src/images/client-1.jpg" alt="client-1.jpg" />
+          <div class="client-info">
+            <h1>CLIENT 1</h1>
+            <p>
+              Lorm ipm dolr amt consect mag maiores.Ipsa dolor sit magnam
+              maores.
+            </p>
+          </div>
         </div>
         <div class="client">
           <img src="src/images/client-2.jpg" alt="client-2.jpg" />
+          <div class="client-info">
+            <h1>CLIENT 2</h1>
+            <p>
+              Lorm ipm dolr amt consect mag maiores.Ipsa dolor sit magnam
+              maores.
+            </p>
+          </div>
         </div>
         <div class="client">
           <img src="src/images/client-3.jpg" alt="client-3.jpg" />
+          <div class="client-info">
+            <h1>CLIENT 3</h1>
+            <p>
+              Lorm ipm dolr amt consect mag maiores.Ipsa dolor sit magnam
+              maores.
+            </p>
+          </div>
         </div>
         <div class="client">
           <img src="src/images/client-4.jpg" alt="client-4.jpg" />
+          <div class="client-info">
+            <h1>CLIENT 4</h1>
+            <p>
+              Lorm ipm dolr amt consect mag maiores.Ipsa dolor sit magnam
+              maores.
+            </p>
+          </div>
         </div>
         <div class="client">
           <img src="src/images/client-5.jpg" alt="client-5.jpg" />
+          <div class="client-info">
+            <h1>CLIENT 5</h1>
+            <p>
+              Lorm ipm dolr amt consect mag maiores.Ipsa dolor sit magnam
+              maores.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -483,12 +672,24 @@
           veniam quis nostrud.
         </div>
         <div class="footer-social-media">
-          <img src="src/images/f.png" alt="facebook" />
-          <img src="src/images/t.png" alt="twitter" />
-          <img src="src/images/g+.png" alt="google+" />
-          <img src="src/images/Be.png" alt="Berilium" />
-          <img src="src/images/p.png" alt="pinterest" />
-          <img src="src/images/i.png" alt="instagram" />
+          <a href="https://www.facebook.com/" target="_blank"
+            ><img src="src/images/f.png" alt="facebook"
+          /></a>
+          <a href="https://x.com/?lang=en" target="_blank"
+            ><img src="src/images/t.png" alt="twitter"
+          /></a>
+          <a href="https://www.google.com/" target="_blank"
+            ><img src="src/images/g+.png" alt="google+"
+          /></a>
+          <a href="https://www.behance.net" target="_blank"
+            ><img src="src/images/Be.png" alt="Berilium"
+          /></a>
+          <a href="https://www.pinterest.com/" target="_blank"
+            ><img src="src/images/p.png" alt="pinterest"
+          /></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><img src="src/images/i.png" alt="instagram"
+          /></a>
         </div>
       </div>
       <div class="all-rights">
