@@ -494,7 +494,7 @@ body {
   width: 100%;
   margin: 0 auto;
   height: 570px;
-  background-image: url(/src/images/clip.jpg);
+  background-image: url(/src/images/clip.png);
   color: #ffffff;
   display: flex;
   align-items: center;
@@ -975,7 +975,7 @@ body {
   /* border: solid black 1px; */
   height: 660px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/src/images/map.jpg);
+    url(/src/images/map.png);
   /* background-image: url(/src/images/map.jpg); */
   display: flex;
   flex-direction: column;
