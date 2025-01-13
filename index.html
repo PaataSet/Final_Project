@@ -414,21 +414,25 @@
       <h1>Latest Projects</h1>
 
       <div class="latest-projects">
-        <div class="nav-div">
-          <nav>
-            <ul>
-              <a href="#"><li>All</li></a>
-              <a href="#"><li>Work ideas</li></a>
-              <a href="#"><li>Mockup</li></a>
-              <a href="#"><li>PSD Design</li></a>
-              <a href="#"><li>Logo</li></a>
-              <a href="#"><li>Presentation</li></a>
-              <a href="#"><li>Icons</li></a>
-            </ul>
-          </nav>
+        <div class="nav-div" id="nav-div">
+          <button class="btn" onclick="filterSelection('all')">All</button>
+          <button class="btn" onclick="filterSelection('Workideas')">
+            Work ideas
+          </button>
+          <button class="btn" onclick="filterSelection('Mockup')">
+            Mockup
+          </button>
+          <button class="btn" onclick="filterSelection('PSDDesign')">
+            PSD Design
+          </button>
+          <button class="btn" onclick="filterSelection('Logo')">Logo</button>
+          <button class="btn" onclick="filterSelection('Presentation')">
+            Presentation
+          </button>
+          <button class="btn" onclick="filterSelection('Icons')">Icons</button>
         </div>
         <div class="lp-cards">
-          <div class="lp-card">
+          <div class="lp-card Workideas">
             <img src="src/images/LP-card-1.png" alt="LP-card-1" />
             <div class="lp-card-info">
               <div class="heart-div">
@@ -438,7 +442,7 @@
               <h1>Work ideas</h1>
             </div>
           </div>
-          <div class="lp-card">
+          <div class="lp-card Mockup">
             <img src="src/images/LP-card-2.png" alt="LP-card-2" />
             <div class="lp-card-info">
               <div class="heart-div">
@@ -448,7 +452,7 @@
               <h1>3D Mockup Design</h1>
             </div>
           </div>
-          <div class="lp-card">
+          <div class="lp-card PSDDesign">
             <img src="src/images/LP-card-3.png" alt="LP-card-3" />
             <div class="lp-card-info">
               <div class="heart-div">
@@ -458,7 +462,7 @@
               <h1>PSD Design</h1>
             </div>
           </div>
-          <div class="lp-card">
+          <div class="lp-card Logo">
             <img src="src/images/LP-card-4.png" alt="LP-card-4" />
             <div class="lp-card-info">
               <div class="heart-div">
@@ -468,7 +472,7 @@
               <h1>Logo</h1>
             </div>
           </div>
-          <div class="lp-card">
+          <div class="lp-card Presentation">
             <img src="src/images/LP-card-5.png" alt="LP-card-5" />
             <div class="lp-card-info">
               <div class="heart-div">
@@ -478,7 +482,7 @@
               <h1>Presentation</h1>
             </div>
           </div>
-          <div class="lp-card">
+          <div class="lp-card Icons">
             <img src="src/images/LP-card-6.png" alt="LP-card-6" />
             <div class="lp-card-info">
               <div class="heart-div">
@@ -608,7 +612,11 @@
     <section class="section9">
       <h1>CONTACT US</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-      <form action="#">
+      <form
+        action="https://jsonplaceholder.typicode.com/posts"
+        method="post"
+        target="_blank"
+      >
         <div class="item-1">
           <!-- <label for="Name">Your Name*</label> -->
           <input
@@ -659,6 +667,17 @@
           <button type="submit">SEND MESSAGE</button>
         </div>
       </form>
+      <dialog id="modal" class="modal">
+        <div class="modal-header">
+          <h2>Modal Title</h2>
+        </div>
+        <div class="modal-body">
+          <p>Modal Body</p>
+        </div>
+        <div class="modal-footer">
+          <button class="close">Close</button>
+        </div>
+      </dialog>
     </section>
 
     <footer>
