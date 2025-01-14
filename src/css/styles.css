@@ -1156,6 +1156,9 @@ dialog::backdrop {
 }
 
 @media (width <1024px) {
+  /* * {
+    outline: 1px solid #f00 !important;
+  } */
   body {
     max-width: 400px;
     width: 100%;
@@ -1190,6 +1193,7 @@ dialog::backdrop {
   }
 
   .About-me-div {
+    max-width: 100px;
     right: 40px;
   }
 
@@ -1199,7 +1203,7 @@ dialog::backdrop {
   }
 
   .About-me {
-    width: 150px;
+    width: 60px;
     font-size: 10px;
     font-weight: 500;
   }
