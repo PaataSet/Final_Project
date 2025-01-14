@@ -1031,7 +1031,7 @@ dialog::backdrop {
     font-size: 17px;
   }
   .Resume {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .About-me-div {
@@ -1067,7 +1067,7 @@ dialog::backdrop {
   .second-div-2 {
     font-family: Glacial Indifference;
     font-weight: bold;
-    font-size: 5px;
+    font-size: 15px;
   }
 
   .second-div-3 {
@@ -1430,11 +1430,11 @@ dialog::backdrop {
 
   .btn {
     width: 150px;
-    height: 50px;
+    height: 40px;
     border: solid black;
     border-radius: 25px;
-    padding: 10px;
-    font-size: 20px;
+    padding: 7px;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     gap: 10px;
