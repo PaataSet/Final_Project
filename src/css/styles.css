@@ -494,13 +494,33 @@ body {
   width: 100%;
   margin: 0 auto;
   height: 570px;
-  background-image: url(/src/images/clip.png);
-  background-color: #15263e;
+  /* background-image: url(/src/images/clip.png); */
+  /* background-color: #15263e; */
   color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 50px;
+  position: relative;
+}
+
+/* .clip {
+  width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+} */
+
+/* .topGR {
+  border: solid black 1 px;
+  width: 1920px;
+  background-image: url(/src/images/clip.png);
+} */
+
+.rs-slides {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
 }
 
 /* დასაწყისი  */
@@ -605,6 +625,7 @@ body {
 }
 
 .paragraph3 {
+  width: 250px;
   font-family: Glacial Indifference;
   font-size: 28px;
 }
