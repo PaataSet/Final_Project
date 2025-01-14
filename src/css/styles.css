@@ -1010,8 +1010,8 @@ body {
 .section9 {
   /* border: solid black 1px; */
   height: 660px;
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/src/images/map.png); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/src/images/map.png);
   /* background-image: url(/src/images/map.png); */
   display: flex;
   flex-direction: column;
@@ -1041,6 +1041,7 @@ body {
   text-align: center;
   margin: 12px 0 46px 0;
 }
+
 .section9 > form {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
