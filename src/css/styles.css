@@ -504,16 +504,15 @@ body {
   position: relative;
 }
 
+/* .sec5-bg {
+  border: solid black 1px;
+  background-image: url(/src/images/clip.png);
+} */
+
 /* .clip {
   width: 1920px;
   width: 100%;
   margin: 0 auto;
-} */
-
-/* .topGR {
-  border: solid black 1 px;
-  width: 1920px;
-  background-image: url(/src/images/clip.png);
 } */
 
 .rs-slides {
@@ -575,7 +574,7 @@ body {
 
 .sec5-paragraph {
   /* border: solid black 1px; */
-  width: 497px;
+  max-width: 497px;
   height: 78px;
   font-family: roboto;
   font-size: 15px;
