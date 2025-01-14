@@ -101,7 +101,7 @@ body {
   flex-direction: column;
   align-items: left;
   position: absolute;
-  right: 400px;
+  right: 300px;
   bottom: 300px;
 }
 
@@ -1156,17 +1156,17 @@ dialog::backdrop {
 }
 
 @media (width <1024px) {
-  /* * {
+  * {
     outline: 1px solid #f00 !important;
-  } */
+  }
   body {
-    max-width: 400px;
+    max-width: 393px;
     width: 100%;
     margin: 0 auto;
   }
 
   .section1 {
-    max-width: 400px;
+    max-width: 393px;
     width: 100%;
     padding: 5px;
     position: relative;
@@ -1251,7 +1251,7 @@ dialog::backdrop {
     animation-name: active;
     animation-duration: 1s;
 
-    max-width: 400px;
+    max-width: 393px;
     width: 100%;
     height: auto;
   }
@@ -1260,7 +1260,7 @@ dialog::backdrop {
     padding: 5px;
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 393px;
     width: 100%;
     height: auto;
   }
@@ -1405,7 +1405,7 @@ dialog::backdrop {
   .section5 {
     background-color: #15263e;
     padding: 5px;
-    max-width: 400px;
+    max-width: 393px;
     margin: 0 auto;
     height: 300px;
     display: flex;
@@ -1519,7 +1519,7 @@ dialog::backdrop {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 400px;
+    max-width: 393px;
     height: auto;
   }
 
@@ -1619,7 +1619,7 @@ dialog::backdrop {
 
   .section7 {
     padding: 5px;
-    max-width: 400px;
+    max-width: 393px;
     width: 100%;
     height: auto;
   }
@@ -1635,7 +1635,7 @@ dialog::backdrop {
   }
 
   .article {
-    max-width: 400px;
+    max-width: 393px;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -1652,7 +1652,7 @@ dialog::backdrop {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    max-width: 400px;
+    max-width: 393px;
     max-height: auto;
   }
 
@@ -1692,7 +1692,7 @@ dialog::backdrop {
   }
 
   .section8 {
-    max-width: 400px;
+    max-width: 393px;
     width: 100%;
     height: 600px;
   }
@@ -1743,13 +1743,13 @@ dialog::backdrop {
 
   .section9 {
     padding: 5px;
-    max-width: 400px;
+    max-width: 393px;
     height: auto;
   }
 
   .sec9bg {
     display: none;
-    max-width: 400px;
+    max-width: 393px;
     position: absolute;
     z-index: 0;
   }
@@ -1814,7 +1814,7 @@ dialog::backdrop {
   }
 
   .footer-div {
-    max-width: 400px;
+    max-width: 393px;
     height: auto;
   }
 
@@ -1840,7 +1840,7 @@ dialog::backdrop {
   }
 
   .all-rights {
-    max-width: 400px;
+    max-width: 393px;
     display: flex;
     background-color: #171717;
     height: 82px;
