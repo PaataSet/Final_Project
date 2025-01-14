@@ -117,7 +117,6 @@ function w3RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
-// Add active class to the current button (highlight it)
 let btnContainer = document.getElementsById("nav-div");
 let btns = btnContainer.getElementsByClassName("btn");
 for (let i = 0; i < btns.length; i++) {
@@ -144,4 +143,4 @@ fetch("https://jsonplaceholder.typicode.com/posts")
     console.log(error);
   });
 
-// დასასრული
+// ???დასასრული
